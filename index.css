@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
+.nameBox{
+    list-style: none;
+}
+.font-note{
+    font-family: 'Noto Sans', sans-serif;
+}
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.iam{
+    font-size: 2rem;
+}
+.name{
+    font-size: 4rem;
+}
+.mrq{
+    font-size: 3rem;
+}
+.profImage{
+    height: 1.9rem;
+    filter: invert();
+}
+.max-hw{
+    height: 100vh;
+}
+.img{
+    width: 17rem;
+    border-radius: 100%;
+}
