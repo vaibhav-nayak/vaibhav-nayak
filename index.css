@@ -30,3 +30,25 @@
     width: 17rem;
     border-radius: 100%;
 }
+
+.cardDiv{
+    width: 25vw;
+    height: 70vh;
+}
+
+.cardImg{
+    width: 100px;
+    height: 100px;
+}
+
+.pad{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+@media screen and (width > 760) {
+    .tw-hw{
+        height: 100vh;
+    }
+}

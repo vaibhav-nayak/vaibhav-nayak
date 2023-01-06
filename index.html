@@ -1,64 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaibhav N.</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+
 <body class="bg-dark">
     <!-- NavBar and Name-->
-    <div class="container-fluid border border-primary d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="container-fluid d-flex justify-content-center align-items-center"
+        style="height: 100vh;">
         <div class="container text-center text-info">
             <div class="row">
-              <div class="col">
-                <span class="iam font-note">I am</span>
-              </div>
-            </div>
-            <div class="row">
                 <div class="col">
-                  <span class="font-note name ">Vaibhav Nayak</span>
+                    <span class="iam font-note">I am</span>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                  <span class="font-note mrq">A developer</span>
+                    <span class="font-note name ">Vaibhav Nayak</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span class="font-note mrq">A developer</span>
                 </div>
             </div>
             <div class="row p-3">
                 <div class="col">
-                    <a href="#" class="mx-2"><img src="linkedin.svg" alt=""class="profImage"></a>
-                    <a href="https://github.com/vaibhav-nayak" class="mx-2"><img src="github.svg" alt="" class="profImage"></a>
-                    <a href="https://leetcode.com/vaibhav-nayak/" class="mx-2"><img src="leetcode.png" alt="" class="profImage"></a>
-                    <a href="https://www.codechef.com/users/vaibhavn97" class="mx-2"><img src="codechef.png" alt="" class="profImage"></a>
+                    <a href="#" class="mx-2"><img src="./public/linkedin.svg" alt="" class="profImage"></a>
+                    <a href="https://github.com/vaibhav-nayak" class="mx-2"><img src="/public/github.svg" alt=""
+                            class="profImage"></a>
+                    <a href="https://leetcode.com/vaibhav-nayak/" class="mx-2"><img src="./public/leetcode.png" alt=""
+                            class="profImage"></a>
+                    <a href="https://www.codechef.com/users/vaibhavn97" class="mx-2"><img src="./public/codechef.png"
+                            alt="" class="profImage"></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Introduction -->
-    <div class="container-fluid max-hw">
+    <div class="container-fluid max-hw pad border border-light">
         <div class="row max-hw">
-            <div class="col d-flex justify-content-center align-items-center border border-primary">
-                <div class="d-flex flex-column  ">
-                    <img src="photo.jpg" alt="photo" class="img my-1">
-                    <span class="text-light my-5 font-ubuntu  text-center">Vaibhav Nayak</span>
+            <div class="col d-flex justify-content-center align-items-center border border-light">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="./public/photo.png" alt="photo" class="img my-1">
+                    <span class="text-light my-5 font-ubuntu  text-center">Vaibhav Vijay Nayak</span>
                 </div>
             </div>
-            <div class="col border border-primary text-light">
-                <div class="d-flex">
-                    <span>
-                        I am vaibhav Nayak currently a student at Walchand College of Engineering, Sangli
+            <div class="col d-flex justify-content-center align-items-center p-4  text-light">
+                <div class="">
+                    <span class="fs-3 text-wrap">
+                        I am Vaibhav Nayak from kolhapur currently I am pursuing my Bachelor Degree as an Electronic
+                        Engineer I have learned programming language such as C, C++, Python, JavaScript and now I
+                        am exploring DSA, Backend  Development using, Machine Learning.
                     </span>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Skills -->
     <!-- Projects -->
-    <!-- Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div class="container-fluid max-hw pad">
+      <div class="row max-hw">
+        <div class="row row-cols-1 row-cols-md-3 g-4 d-flex position-absolute">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="public/flaskApp.png" class="card-img-top" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title">numSys</h5>
+                <p class="card-text">This App is convert number among various number system such as hexadecical, octal, binary.</p>
+                <p class="card-text"><b> Stack Used : Flask, Bootstrap </b></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 month ago</small>
+          </div>  
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100 p-3">
+          <img src="public/django.png" class="card-img-top" alt="django">
+          <div class="card-body">
+            <h5 class="card-title">Facebook Site Clone</h5>
+            <p class="card-text">This App is has social media feature such as creating account, posting, like and comment facility.</p>
+            <p class="card-text"><b>Stack Used : django, SQLite3, Bootstrap</b></p>
+  
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 hours ago</small>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100 p-3">
+          <img src="public/oop.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Numpy Clone</h5>
+            <p class="card-text">This project deals with clonning the feature of numpy library in python using OOP of C++</p>
+            <p class="card-text"><b>Stack Used : C++, OOP</b></p>
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 week ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="text-light text-center"> Created and Maintained by - &copy; Vaibhav Nayak</div>
+  <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
