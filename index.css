@@ -23,9 +23,11 @@
     height: 1.9rem;
     filter: invert();
 }
+
 .max-hw{
     height: 100vh;
 }
+
 .img{
     width: 17rem;
     border-radius: 100%;
@@ -47,8 +49,8 @@
 
 }
 
-@media screen and (width > 760) {
-    .tw-hw{
-        height: 100vh;
+@media screen and (max-width: 400px) {
+    .max-hw{
+        height: 100rem;
     }
-}
+  }
